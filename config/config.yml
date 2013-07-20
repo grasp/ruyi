@@ -1,11 +1,11 @@
 defaults: &defaults
   app_name: "I-090.com"
-  foot_html: "&copy; I-090.com."
+  foot_html: "I-090.com"
   domain: "127.0.0.1:3000"
   admin_emails:
-    - "mark.xiansheng@gmail.com"
+    - "mark.xiansheng@gamil.com"
   google_analytics_key: ""
-  upload_url: "http://ruby-cdn.dev.b0.upaiyun.com"
+  upload_url: "http://ruyi-cdn.b0.upaiyun.com"
   upyun_username: "test"
   upyun_password: "123123"
   upyun_bucket: "ruyi-cdn"

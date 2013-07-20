@@ -21,9 +21,9 @@ set :runner, "hunter"
 # set :deploy_via, :remote_cache
 # set :git_shallow_clone, 1
 
-role :web, "i-090.com"                          # Your HTTP server, Apache/etc
-role :app, "i-090.com"                          # This may be the same as your `Web` server
-role :db,  "i-090.com", :primary => true # This is where Rails migrations will run
+role :web, "127.0.0.1"                          # Your HTTP server, Apache/etc
+role :app, "127.0.0.1"                          # This may be the same as your `Web` server
+role :db,  "127.0.0.1", :primary => true # This is where Rails migrations will run
 
 # unicorn.rb 路径
 set :unicorn_path, "#{deploy_to}/current/config/unicorn.rb"

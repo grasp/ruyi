@@ -76,10 +76,10 @@ puts_section "Checking Package Dependencies..." do
 end
 
 # Config files
-puts_section "Configure" do
-  %w(config mongoid redis thin).each do |fname|
-    `cp config/#{fname}.yml.default config/#{fname}.yml`
-  end
+#puts_section "Configure" do
+ # %w(config mongoid redis thin).each do |fname|
+ #   `cp config/#{fname}.yml.default config/#{fname}.yml`
+ # end
 
   print "Your MongoDB host (default: 127.0.0.1:27017):"
   host = gets.strip

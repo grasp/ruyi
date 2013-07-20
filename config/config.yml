@@ -1,14 +1,14 @@
 defaults: &defaults
-  app_name: "Ruby China"
-  foot_html: "&copy; Ruby China."
+  app_name: "I-090.com"
+  foot_html: "I-090.com"
   domain: "127.0.0.1:3000"
   admin_emails:
-    - "admin@admin.com"
+    - "mark.xiansheng@gamil.com"
   google_analytics_key: ""
-  upload_url: "http://ruby-china-files-dev.b0.upaiyun.com"
+  upload_url: "http://ruyi-cdn.b0.upaiyun.com"
   upyun_username: "test"
   upyun_password: "123123"
-  upyun_bucket: "ruby-china-files-dev"
+  upyun_bucket: "ruyi-cdn"
   email_server: "smtp.exmail.qq.com"
   email_sender: 'dev-test@ruby-china.org'
   email_password: 'test123456'
